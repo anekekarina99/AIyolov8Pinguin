@@ -1,0 +1,7 @@
+path: ../data  # Path ke data folder
+train: yolo_train
+val: yolo_valid
+
+names:
+  0: penguin
+  1: turtle

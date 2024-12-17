@@ -4,7 +4,7 @@ from ultralytics import YOLO
 model = YOLO('yolov8n.pt')  # YOLOv8n: model nano
 
 # Training model
-model.train(data='dataset/data.yaml',
+model.train(data='dataset.yaml',
             epochs=50,
             imgsz=640,
             batch=8,

@@ -25,7 +25,7 @@ def count_objects(frame, model):
     return object_counts
 
 # Ganti dengan path gambar yang ingin kamu analisis
-image_path = 'path/to/your/image.jpg'  # Misalnya 'data/images/your_image.jpg'
+image_path = 'images/dataa.jpg'  # Misalnya 'data/images/your_image.jpg'
 
 # Membaca gambar
 frame = cv2.imread(image_path)

@@ -33,5 +33,5 @@ def convert_txt_annotations_to_yolo(txt_dir, images_dir, output_dir):
                 print(f"Warning: Gambar {image_id}.jpg tidak ditemukan!")
 
 # Convert train and validation annotations
-convert_txt_annotations_to_yolo("data/train_annotations.txt", "data/train/train", "data/yolo_train")
-convert_txt_annotations_to_yolo("data/valid_annotations.txt", "data/valid/valid", "data/yolo_valid")
+convert_txt_annotations_to_yolo("data/train_annotations", "data/train/train", "data/yolo_train")
+convert_txt_annotations_to_yolo("data/valid_annotations", "data/valid/valid", "data/yolo_valid")
